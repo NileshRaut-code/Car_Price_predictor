@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>......Car Price Predictor......</title>
+</head>
+<body>
+    
+
+
+    <div class="row">
+        <form action='/predict' method="post" class="col s12">
+          <div class="row">
+    
+            
+    
+            <div class="input-field col s4">
+    
+                <label for="last_name" style="font-size: 20px"><b>Company</b></label>
+                  <br>
+                <input id="children" name="1" placeholder="0 for Volkswagan ,1 - BMW , 2 - Audi"  type="number" class="validate">
+      
+              </div>
+    
+            <div class="input-field col s4">
+                <label for="smoker" style="font-size: 20px"><b>Fuel Type</b></label>
+                <br>
+                <input id="smoker" name="2" placeholder="1 - Petrol/0 - Diseal" type="number" class="validate">
+            </div>
+    
+            <div class="input-field col s4">
+                <label for="region" style="font-size: 20px"><b>car type</b></label>
+                <br>
+                <input id="region" name="3" placeholder="" type="number" class="validate">
+            </div>
+          </div>
+    
+          <div class="input-field col s4">
+    
+            <label for="last_name" style="font-size: 20px"><b>No of Cylinders</b></label>
+              <br>
+            <input id="children" name="4" placeholder="0 for None"  type="number" class="validate">
+    
+          </div>
+          <div class="input-field col s4">
+    
+            <label for="last_name" style="font-size: 20px"><b>no of Wheels</b></label>
+              <br>
+            <input id="children2" name="5" placeholder="0 for None"  type="number" class="validate">
+    
+          </div>
+          <div class="input-field col s4">
+    
+            <label for="last_name" style="font-size: 20px"><b>Kilometer</b></label>
+              <br>
+            <input id="children3" name="6" placeholder="0 for None"  type="number" class="validate">
+    
+          </div>
+          <div class="input-field col s4">
+    
+            <label for="last_name" style="font-size: 20px"><b>First and Second hand</b></label>
+              <br>
+            <input id="children4" name="7" placeholder="0 for fist ,1"  type="number" class="validate">
+    
+          </div>
+          <div class="input-field col s4">
+    
+            <label for="last_name" style="font-size: 20px"><b>Transmission type</b></label>
+              <br>
+            <input id="children5" name="8" placeholder="0 for manual , 1 - auto"  type="number" class="validate">
+    
+          </div>
+          <div class="input-field col s4">
+    
+            <label for="last_name" style="font-size: 20px"><b>Mercedes-benz</b></label>
+              <br>
+            <input id="children6" name="9" placeholder="0 for None"  type="number" class="validate">
+    
+          </div>
+          <div class="input-field col s4">
+    
+            <label for="last_name" style="font-size: 20px"><b>Tata</b></label>
+              <br>
+            <input id="children7" name="10" placeholder="0 for None"  type="number" class="validate">
+    
+          </div>
+          <div class="input-field col s4">
+    
+            <label for="last_name" style="font-size: 20px"><b>BMW</b></label>
+              <br>
+            <input id="children7" name="11" placeholder="0 for None"  type="number" class="validate">
+    
+          </div>
+          <div class="input-field col s4">
+    
+            <label for="last_name" style="font-size: 20px"><b>Chevolet</b></label>
+              <br>
+            <input id="children7" name="12" placeholder="0 for None"  type="number" class="validate">
+    
+          </div>
+          <div class="input-field col s4">
+    
+            <label for="last_name" style="font-size: 20px"><b>Renault</b></label>
+              <br>
+            <input id="children8" name="13" placeholder="0 for None"  type="number" class="validate">
+    
+          </div>
+          <div class="input-field col s4">
+    
+            <label for="last_name" style="font-size: 20px"><b>Jaguar</b></label>
+              <br>
+            <input id="children81" name="14" placeholder="0 for None"  type="number" class="validate">
+    
+          </div>
+          <div class="input-field col s4">
+    
+            <label for="last_name" style="font-size: 20px"><b>jeep</b></label>
+              <br>
+            <input id="children82" name="15" placeholder="0 for None"  type="number" class="validate">
+    
+          </div>
+          <div class="input-field col s4">
+    
+            <label for="last_name" style="font-size: 20px"><b>Nissan</b></label>
+              <br>
+            <input id="children9" name="16" placeholder="0 for None"  type="number" class="validate">
+    
+          </div>
+
+          
+          
+         
+
+          <div class="row center">
+    
+              <button type="submit" class="btn-large waves-effect waves-light lamber lighten-1">Price Check</button>
+          </div>
+        </form>
+          </div>
+          <div class="dark-text">
+            <br>
+              <h4>{{pred}}</h4><br>
+            </div>
+
+</body>
+</html>
